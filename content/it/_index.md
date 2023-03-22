@@ -5,9 +5,9 @@ menu: "main"
 weight: 1
 ---
 
-hack.bs è un hackerspace [cypherpunk]({{< ref "cypherpunks" >}}) non-profit situato a Brescia. Il nostro scopo è di offrire uno spazio dove sviluppatori, hacker, studenti e tecno-curiosi possano incontrarsi e imparare gli uni dagli altri, scrivendo software open source, sviluppando su Bitcoin, parlando di privacy e libertá. Siamo uno spazio per hacker, creato da hacker.
+BitcoinToronto è un hackerspace [cypherpunk]({{< ref "cypherpunks" >}}) non-profit situato a Toronto, Canada. Il nostro scopo è di offrire uno spazio dove sviluppatori, hacker, studenti e tecno-curiosi possano incontrarsi e imparare gli uni dagli altri, scrivendo software open source, sviluppando su Bitcoin, parlando di privacy e libertá. Siamo uno spazio per Bitcoiners, creato da Bitcoiners.
 
-Ospiteremo regolarmente eventi aperti a tutti, come workshop, meetup, hackathon e tanto altro.
+Ospiteremo regolarmente eventi aperti a tutti, come workshop, meetup, hackathon, eventi virtuali e tanto altro.
 
 Siamo finanziati attraverso contribuzioni volontarie da individui e aziende private: se vuoi supportarci, considera di [fare una donazione]({{< ref "donate" >}}).
 La nostra pagina di [trasparenza]({{< ref "transparency" >}}) mostra nel dettaglio come gestiamo i fondi raccolti.
@@ -15,15 +15,15 @@ La nostra pagina di [trasparenza]({{< ref "transparency" >}}) mostra nel dettagl
 {{< framed >}} 
 ## Coming Soon
 
-Al momento stiamo lavorando per aprire l'entità legale e trovare uno spazio fisico adatto. Apriremo al pubblico nel primo trimestre del 2023.
+Al momento stiamo lavorando per aprire l'entità legale e trovare uno spazio fisico adatto. Ci apriremo al pubblico una volta che questo accadrà.
 
-Puoi aiutarci a coprire i costi iniziali di affitto, mobili e hardware con una [donazione]({{< ref "donate" >}}) alla nostra campagna di crowdfunding. Accettiamo solo pagamenti in Bitcoin.
+È possibile aiutarci a coprire i nostri costi iniziali di affitto, mobili ed attrezzature hardware tramite una [donazione]({{< ref "donate" >}}) alla nostra campagna di crowdfunding. Accettiamo solo Bitcoin "on-chain", e i codici di pagamento BIP47 sono preferiti per una maggiore privacy tra mittente e destinatario. Il nostro codice di pagamento si trova qui. I portafogli FOSS che supportano BIP47 sono Samourai Wallet, Sparrow Wallet, Blue Wallet e Stack Wallet.
 
 {{< /framed >}}
 
 ## Fondatori
 
-BitcoinToronto è la creazione di KryptoKidz, an appassionato educatore di Bitcoin che lavora su questi progetti incentrati su Bitcoin: [KryptoKidz](https://twitter.com/kryptokidz_), [BitcoinToronto](https://twitter.com/bitcointoronto_), è [DIYbitcoin](https://twitter.com/DIYbitcoin). Per ulteriori informazioni sui progetti a cui Kidz partecipa, vedere: [github](https://github.com/kkdao).
+BitcoinToronto è la creazione di KryptoKidz, an appassionato educatore di Bitcoin che lavora su questi progetti incentrati su Bitcoin: [KryptoKidz](https://twitter.com/kryptokidz_), [BitcoinToronto](https://twitter.com/bitcointoronto_), è [DIYbitcoin](https://twitter.com/DIYbitcoin). Per altri coinvolgimenti in progetti, vedere Kidz's: [github](https://github.com/kkdao).
 
 ## Communità
 

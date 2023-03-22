@@ -16,15 +16,15 @@ We have a [transparency]({{< ref "transparency" >}}) page to show exactly how we
 {{< framed >}} 
 ## Coming Soon
 
-We are in the process of securing a location for the hackerspace. We will open to the public TBD.
+We are in the process of securing a location for the hackerspace. We will open to the public once that happens.
 
-You can help us cover our initial costs of rent, furniture and hardware equipment by [donating]({{< ref "donate" >}}) to our crowd-funding campaign. We only accept Bitcoin on-chain via BIP47 payment codes are preferred for better privacy between sender and receiver. Our payment code is [here](https://paynym.is/+ancientrain). FOSS Wallets that support BIP47 are Samourai Wallet, Sparrow Wallet, Blue Wallet, and Stack Wallet.
+You can help us cover our initial costs of rent, furniture and hardware equipment by [donating]({{< ref "donate" >}}) to our crowd-funding campaign. We only accept Bitcoin on-chain, and BIP47 payment codes are preferred for better privacy between sender and receiver. Our payment code is [here](https://paynym.is/+ancientrain). FOSS Wallets that support BIP47 are Samourai Wallet, Sparrow Wallet, Blue Wallet, and Stack Wallet.
 
 {{< /framed >}}
 
 ## Founders
 
-BitcoinToronto is the creation of KryptoKidz, a passionate bitcoin educator working on these bitcoin-focused projects: [KryptoKidz](https://twitter.com/kryptokidz_), [BitcoinToronto](https://twitter.com/bitcointoronto_), and [DIYbitcoin](https://twitter.com/DIYbitcoin). For other projects involvements, see Kidz's [github](https://github.com/kkdao).
+BitcoinToronto is the creation of KryptoKidz, a passionate bitcoin educator working on these bitcoin-focused projects: [KryptoKidz](https://twitter.com/kryptokidz_), [BitcoinToronto](https://twitter.com/bitcointoronto_), and [DIYbitcoin](https://twitter.com/DIYbitcoin). For other project involvements, see Kidz's [github](https://github.com/kkdao).
 
 ## Community
 
