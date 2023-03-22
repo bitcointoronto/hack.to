@@ -5,20 +5,20 @@ menu: "main"
 weight: 1
 ---
 
-hack.bs is a non-profit [cypherpunk]({{< ref "cypherpunks" >}}) hackerspace located in Brescia, Italy. Our mission is to provide a space where people can learn about Bitcoin, technology, open-source, privacy and freedom, and connect with other
-like-minded individuals. We are a space for hackers, designed by hackers.
+BitcoinToronto is a non-profit [cypherpunk]({{< ref "cypherpunks" >}}) hackerspace located in Toronto, Canada. Our mission is to provide a space where people can learn about Bitcoin, technology, open-source, privacy and freedom, and connect with other
+like-minded individuals. We are a space for Bitcoiners, designed by Bitcoiners.
 
-We plan to regularly host workshops, meetups, hackathons and more, open to everybody.
+We plan to regularly host workshops, meetups, hackathons, virtual events and more, open to everybody. 
 
-We are funded through voluntary contributions from individuals and private companies: if you want to support our project you can also [make a donation]({{< ref "donate" >}}).
+We are funded through voluntary contributions from individuals and private companies. If you want to support our project you can also [make a donation]({{< ref "donate" >}}).
 We have a [transparency]({{< ref "transparency" >}}) page to show exactly how we allocate our funds.
 
 {{< framed >}} 
 ## Coming Soon
 
-We are in the process of setting up the legal entity and securing a location for the hackerspace. We will open to the public in Q1 2023.
+We are in the process of securing a location for the hackerspace. We will open to the public TBD.
 
-You can help us cover our initial costs of rent, furniture and hardware equipment by [donating]({{< ref "donate" >}}) to our crowd-funding campaign. We only accept Bitcoin.
+You can help us cover our initial costs of rent, furniture and hardware equipment by [donating]({{< ref "donate" >}}) to our crowd-funding campaign. We only accept Bitcoin on-chain via BIP47 payment codes are preferred for better privacy between sender and receiver. Our payment code is [here](https://paynym.is/+ancientrain). FOSS Wallets that support BIP47 are Samourai Wallet, Sparrow Wallet, Blue Wallet, and Stack Wallet.
 
 {{< /framed >}}
 
