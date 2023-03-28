@@ -5,20 +5,18 @@ menu: "main"
 weight: 1
 ---
 
-BitcoinToronto is a non-profit [cypherpunk]({{< ref "cypherpunks" >}}) hackerspace located in Toronto, Canada. Our mission is to provide a space where people can learn about Bitcoin, technology, open-source, privacy and freedom, and connect with other
-like-minded individuals. We are a space for Bitcoiners, designed by Bitcoiners.
+BitcoinToronto is a Meetup group which aims to have [cypherpunk]({{< ref "cypherpunks" >}}) hackerspace located in Toronto, Canada. Our mission is to provide a space where people can learn about Bitcoin, technology, open-source, privacy and freedom, and connect with other like-minded individuals. We are a community for Bitcoiners, created by Bitcoiners.
 
-We plan to regularly host workshops, meetups, hackathons, virtual events and more, open to everybody. 
+We plan to regularly host workshops, meetups, hackathons, and more, open to everybody.
 
-We are funded through voluntary contributions from individuals and private companies. If you want to support our project you can also [make a donation]({{< ref "donate" >}}).
-We have a [transparency]({{< ref "transparency" >}}) page to show exactly how we allocate our funds.
+We are not funded in any way. If you want to support our project you can join the Meetup [group](https://meetup.com/bitcointoronto), and get involved with our community through the Telegram [chat](https://t.me/+0g_MO0GudG00OTMx), as well as attend meetup events. Furthermore, if you are well-versed with GitHub you can contribute ideas to our Discussions [page](https://github.com/orgs/bitcointoronto/discussions), as well as even write an educational blog post by creating a pull request for it [here](https://github.com/bitcointoronto/hack.to/pulls). If not, search on YouTube how it's easy!
 
 {{< framed >}} 
 ## Coming Soon
 
-We are in the process of securing a location for the hackerspace. We will open to the public once that happens.
+We are in the process of securing a location for the hackerspace. We will open to the public once that happens.In the meantime, we host IRL meetups in Toronto, virtual meetups, as well as maintain the DIYbitcoin Twitter [account](https://twitter.com/DIYbitcoin) and Telegram chat.
 
-You can help us cover our initial costs of rent, furniture and hardware equipment by [donating]({{< ref "donate" >}}) to our crowd-funding campaign. We only accept Bitcoin on-chain, and BIP47 payment codes are preferred for better privacy between sender and receiver. Our payment code is [here](https://paynym.is/+ancientrain). FOSS Wallets that support BIP47 are Samourai Wallet, Sparrow Wallet, Blue Wallet, and Stack Wallet.
+You can help out by joining the community and getting involved! We are open to everyone, and while Bitcoin is censorship-resitant we do ask to keep it mostly civil in our community chat and at events. We want to foster a community where everyone can learn and be themselves. For example, there are a lot of male dominated Bitcoin communities which are raw and unfiltered where shitposting, and vulgar comments and media are shared - we don't want that.
 
 {{< /framed >}}
 
