@@ -29,4 +29,6 @@ Now since bitcoin has these money properties and unique attributes, Bitcoin’s 
 
 The use of blockchain technology for these purposes could create a more transparent and efficient system for recording and transferring valuable assets, with the potential to reduce fraud, corruption, and bureaucracy. We encourage entrepreneurs and innovators to explore the potential of this technology and to create new businesses and services that leverage the capabilities of Bitcoin’s blockchain to improve various aspects of our society. 
 
+-------
+
 [^1]: Source: https://www.youtube.com/watch?v=yPIvqJsCOSo
