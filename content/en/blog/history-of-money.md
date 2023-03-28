@@ -31,4 +31,4 @@ The use of blockchain technology for these purposes could create a more transpar
 
 -------
 
-[^1]: Source: https://www.youtube.com/watch?v=yPIvqJsCOSo
+[^1]: Source [link](https://www.youtube.com/watch?v=yPIvqJsCOSo)
