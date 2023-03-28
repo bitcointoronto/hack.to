@@ -31,4 +31,6 @@ The use of blockchain technology for these purposes could create a more transpar
 
 -------
 
+This blog post is a summary of the excellent presentation given by Wences Cesares.[^1]
+
 [^1]: Source [link](https://www.youtube.com/watch?v=yPIvqJsCOSo)
