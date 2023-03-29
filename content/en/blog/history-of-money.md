@@ -1,6 +1,6 @@
 ---
 title: "History of Money"
-date: 2023-03-28
+date: 2023-03-27
 author: "KryptoKidz"
 tags:
     - historyofmoney
@@ -8,7 +8,7 @@ tags:
 
 In this blog post, we discuss the history of money, and how it has envolved over time.
 
-## The History of Money
+## History of Money
 
 1. Money has three functions: a store of value, a medium of exchange, and a unit of account. 
 2. Throughout history, many different things have been used as money, including seashells, salt, and gold. The choice of money was based on its scarcity, durability, portability, and divisibility. 

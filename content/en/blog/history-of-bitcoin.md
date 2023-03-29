@@ -1,6 +1,6 @@
 ---
 title: "History of Bitcoin"
-date: 2023-03-29
+date: 2023-03-28
 author: "KryptoKidz"
 tags:
     - historyofbitcoin
@@ -48,6 +48,8 @@ Despite the various proposals that were put forward, the debate ultimately highl
 In the end, the Blocksize Wars were resolved without a hard fork, as the community eventually came to a compromise that involved implementing Segregated Witness (SegWit), a scaling solution that allowed more transactions to be processed within the existing block size limit. While the resolution of the conflict was a significant achievement for the bitcoin community, the episode left a lasting impact, highlighting the importance of community consensus and the challenges of achieving it in a decentralized and distributed system like Bitcoin.
 
 **The war was over and the small blockers won. Sorry Bitcoin XT, Bitcoin Classic, Bitcoin Unlimited and Bitcoin Cash**
+
+-------
 
 One of the key takeaways from the Blocksize Wars was the realization that users have the power to shape the direction of the Bitcoin network. In the past, consensus in the Bitcoin community was typically achieved through a mechanism known as a "MAHF" (miner-activated hard fork).  However, with the advent of user-activated soft forks (UASFs), users now have the ability to signal their support for specific changes to the network by running their own nodes and upgrading their software to enforce the new rules.
 
