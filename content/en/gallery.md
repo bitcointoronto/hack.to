@@ -6,8 +6,6 @@ menu: "main"
 
 ## Gallery Photos from DIY Projects
 
-> Hello
-
 {{< figure src="/img/naked-node.png" alt="Naked Node" position="left" style="border-radius: 8px;" caption="naked node" captionPosition="left" captionStyle="color: black;" >}}
 
 {{< image src="/img/favicon.png" alt="Hello Friend" position="center" style="border-radius: 8px;" >}}
