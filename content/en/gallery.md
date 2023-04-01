@@ -6,10 +6,13 @@ menu: "main"
 
 ## Gallery Photos from DIY Projects
 
-{{< figure src="/img/naked-node.png" alt="Naked Node" position="left" style="border-radius: 8px;" caption="naked node" captionPosition="left" captionStyle="color: black;" >}}
+![Naked Node](/naked-node.png)
 
-{{< image src="/img/favicon.png" alt="Hello Friend" position="center" style="border-radius: 8px;" >}}
+{{< img src="/nakednode.png" alt="Naked Node" position="left" style="border-radius: 8px;" caption="naked node" captionPosition="left" captionStyle="color: black;" >}}
 
+{{< img src="/static/nakednode.png" >}}
+
+{{< img src="/favicon.png" alt="Hello Friend" position="center" style="border-radius: 8px;" >}}
 
 {{< code language="css" title="Really cool snippet" id="1" expand="Show" collapse="Hide" isCollapsed="true" >}}
 pre {
