@@ -1,4 +1,4 @@
-baseurl = "https://bitcointoronto.github.io/hack.to/"
+baseurl = "https://kkdao.github.io/BTM/"
 theme = "terminal"
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
@@ -51,7 +51,7 @@ paginate = 5
   [languages.en]
     languageName = "English"
     contentDir = 'content/en'
-    title = "BitTor"
+    title = "hack.to"
     subtitle = "A space for Bitcoiners, designed by Bitcoiners"
     owner = ""
     keywords = "hackerspace, bitcoin, cypherpunk, toronto, canada, opensource, freedom, privacy"
@@ -66,12 +66,12 @@ paginate = 5
 
     [languages.en.params.logo]
       logoText = "BitcoinToronto"
-      logoHomeLink = "/"
+      logoHomeLink = "https://bitcointoronto.github.io/hack.to/"
 
   [languages.it]
     languageName = "Italiano"
     contentDir = 'content/it'
-    title = "BitTor"
+    title = "BitcoinToronto"
     subtitle = "Uno spazio per hacker, inventato da hacker"
     owner = ""
     keywords = "hackerspace, bitcoin, cypherpunk, toronto, canada, opensource, liberta, privacy"

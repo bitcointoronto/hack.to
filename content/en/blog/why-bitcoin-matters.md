@@ -8,11 +8,21 @@ tags:
 
 In this blog post we will cover the key points as to why bitcoin matters.
 
-> ## Double Spending & Byzantine General's Problem
+<!-- markdown-toc start- Don't edit this section. Run M-x markdown-toc/generate-toc again -->
+
+## Table of Contents
+
+* [Solving Problems](#solving-problems)
+  * [Censorship Resistance](#censorship-resistance)
+    * [Protocol Immutability](#immutable)
+
+<!-- markdown-toc end --> 
+
+## Solving Problems
 >
 > Bitcoin is more than just a buzzword, it is a revolutionary technology that has changed the way we think about money and transactions. Created in 2009 by an unknown individual or group using the pseudonym Satoshi Nakamoto, Bitcoin is a decentralized digital currency that operates without a central authority or middleman. 
 >
-> Bitcoin's success can be attributed to its ability to solve two critical problems: the double-spending problem and the Byzantine General's problem. 
+> Bitcoin's success can be attributed to its ability to solve two critical problems: the double-spending problem and the Byzantine General's problem.
 >
 > The double-spending problem refers to the issue of preventing someone from spending the same digital currency twice. In a traditional currency system, a central authority such as a bank ensures that each transaction is valid and that the funds being transferred are not being used elsewhere. However, in a decentralized system like Bitcoin, there is no central authority to verify transactions. To address this problem, Bitcoin uses a blockchain, a public ledger that records all transactions in chronological order. The blockchain ensures that each transaction is valid and that the same Bitcoin cannot be spent twice. 
 >
@@ -36,7 +46,7 @@ In this blog post we will cover the key points as to why bitcoin matters.
 >
 > Furthermore, Bitcoin's censorship resistance is another reason why it matters. Its decentralized nature and lack of a central authority ensure that transactions cannot be censored or seized, providing individuals and businesses with a level of financial freedom and autonomy that traditional payment systems cannot offer. As Bitcoin continues to gain adoption and evolve, its censorship-resistant property will become increasingly important in a world where financial censorship is a real threat. 
 
-## Protocol Immutability
+## Protocol Immutability {#immutable}
 
 > The immutability of Bitcoin's protocol is achieved through a combination of cryptographic techniques and the consensus mechanism that the network uses. These techniques ensure that bad actors are unable to alter or tamper with the blockchain.
 >

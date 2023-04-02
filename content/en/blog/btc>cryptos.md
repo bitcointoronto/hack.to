@@ -8,7 +8,17 @@ tags:
 
 In this blog post we will highlight the key differences which make the bitcoin network so unique.
 
-> ## 7 Players on the Network 
+<!-- markdown-toc start- Don't edit this section. Run M-x markdown-toc/generate-toc again -->
+
+## Table of Contents
+
+* [7 Players on the Network](#7-players-on-the-network)
+  * [Bitcoin Miners vs Full Nodes](#bitcoin-miners-vs-full-nodes)
+    * [Developers](#devs)
+
+<!-- markdown-toc end --> 
+
+## 7 Players on the Network 
 >
 > Bitcoin is often hailed as a more decentralized network compared to other cryptocurrencies, and one of the key reasons for this is that it is controlled by a diverse range of players. These players include users, developers, bitcoin wallet providers, exchanges, merchants, nodes, and miners, each of whom plays an important role in ensuring the network remains truly decentralized. 
 >
@@ -30,7 +40,7 @@ In this blog post we will highlight the key differences which make the bitcoin n
 > 4. Full nodes keep miners honest during protocol upgrades. The way that’s done is through users using their nodes to vote by signaling during protocol upgrades, thus essentially governing the network. 
 > 5. Full nodes are essential for the proper functioning of the network. Without them, the Bitcoin network would be vulnerable to manipulation, fraud, and centralization. 
 
-## Developers 
+## Developers {#devs}
 
 > Another way in which bitcoin maintains its decentralization is through the involvement of developers. These individuals are responsible for creating and maintaining the software that powers the Bitcoin network. 
 >
