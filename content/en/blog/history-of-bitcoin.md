@@ -8,7 +8,17 @@ tags:
 
 Bitcoin has been a hot topic for years, and it's only getting more popular. But where did it all start? Let's take a look at the fascinating history of this digital currency.
 
-> ## Cypherpunks 
+<!-- markdown-toc start- Don't edit this section. Run M-x markdown-toc/generate-toc again -->
+
+# Table of Content
+
+- [Cypherpunks](#cypherpunks)
+  - [Silk Road](#silk-road)
+    - [Blocksize Wars - Scaling Bitcoin](#blocksize-wars-scaling-bitcoin)
+
+<!-- markdown-toc end -->    
+
+## Cypherpunks
 >
 > The origins of Bitcoin can be traced back to the Cypherpunk movement in the 1990s, which consisted of a group of activists in the 1990s who believed that cryptography and other privacy-enhancing technologies could be used to protect individual freedoms in the digital age. The movement was largely made up of computer programmers, hackers, and other tech-savvy individuals who saw the potential for technology to be used as a tool for social and political change.
 >
