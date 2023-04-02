@@ -1,4 +1,4 @@
-baseurl = "https://kkdao.github.io/BTM/"
+baseurl = "https://bitcointoronto.github.io/hack.to/"
 theme = "terminal"
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true

@@ -4,26 +4,18 @@ date: 022-12-15T19:20:22+01:00
 menu: "main"
 ---
 
-## Training Sessions
+## 4hr Training Session
 
-{{< code language="css" title="Really cool snippet" id="1" expand="Show" collapse="Hide" isCollapsed="true" >}}
-pre {
-  background: #1a1a1d;
-  padding: 20px;
-  border-radius: 8px;
-  font-size: 1rem;
-  overflow: auto;
+**$400**
 
-  @media (--phone) {
-    white-space: pre-wrap;
-    word-wrap: break-word;
-  }
+{{< code language="details" title="" id="1" expand="Show" collapse="Hide" isCollapsed="true" >}}
 
-  code {
-    background: none !important;
-    color: #ccc;
-    padding: 0;
-    font-size: inherit;
-  }
-}
+- Hands on privacy guidance and operations overview
+- Wallet walk-through based on your coins and desired device/OS
+- Properly secure your backup
+- Best practices when using and storing coins
+- Receive $50 worth of bitcoin during your session!
+
+<a href="mailto:YOUR_EMAIL_ADDRESS">YOUR_EMAIL_ADDRESS</a></ul> 
+
 {{< /code >}}

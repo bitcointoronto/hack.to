@@ -8,7 +8,20 @@ tags:
 
 In this blog post we will go through the history of bitcoin wallets, and how they have progressed.
 
-> ## Early Days  
+<!-- markdown-toc start- Don't edit this section. Run M-x markdown-toc/generate-toc again -->
+
+## Table of Contents
+
+- [Early Days](#early-days)
+  - [Progression of BIPs](#progression-of-bips)
+	- [BIP39 - Wallet Seed Creation Standardization ](#bip39)
+	  - [Descriptor Wallet Backup Standardization](#wallet-descriptors)
+	    - [XPUBs vs ZPUBs vs YPUBs](#xpubs)
+	      - [Watch-only Wallet](#watch-only)
+
+<!-- markdown-toc end -->    
+
+## Early Days  
 >
 > Before the introduction of BIPs (Bitcoin Improvement Proposals) and the development of HD wallets, bitcoin users primarily relied on simple software wallets that stored a single private key and associated bitcoin address. These wallets were often referred to as "single-address wallets”. 
 > 
@@ -27,7 +40,7 @@ In this blog post we will go through the history of bitcoin wallets, and how the
 > 3. BIP49, proposed in 2015, introduced a new type of wallet called a P2SH-P2WPKH (Pay-to-Witness-Public-Key-Hash-in-Pay-to-Script-Hash) wallet, which enabled the use of Segregated Witness (SegWit) addresses. SegWit is a protocol upgrade that was introduced in 2017 to improve the scalability and efficiency of the Bitcoin network. P2SH-P2WPKH wallets allowed users to take advantage of SegWit without having to upgrade to new address formats. This type of address with begins with a **3** is compatible with the above and below address types. 
 > 4. BIP84, proposed in 2016, introduced a new type of wallet called a Native SegWit or Bech32 wallet. Native SegWit wallets use a new address format that is more efficient than P2SH-P2WPKH addresses, and they provide additional security benefits. Bech32 addresses are longer than traditional bitcoin addresses, but they are easier to read and are less prone to human error. These address types begin with **bc1**.  
 
-## BIP39 - Wallet Seed Creation Standardization 
+## BIP39 - Wallet Seed Creation Standardization {#bip39}
 
 > BIP39, also known as the Mnemonic Code for Generating Deterministic Keys BIP, was proposed in 2013 and introduced a standardized way to generate seed phrases for HD wallets. Prior to BIP39, different wallet software used different methods for generating seed phrases, which made it difficult to switch between different wallet software or recover funds if a wallet was lost or corrupted. 
 >
@@ -37,7 +50,7 @@ In this blog post we will go through the history of bitcoin wallets, and how the
 >
 > Overall, BIP39 helped improve wallet compatibility by providing a standardized way to generate seed phrases for HD wallets. This standardized approach enabled users to easily switch between different wallet software that supports BIP39 and recover funds if a wallet was lost or corrupted. With the ability to add a passphrase along with your seed phrase which allowed for added security, wallets which support BIP39 are the most recommended amongst Bitcoiners.
 
-## Descriptor Wallet Backup Standardization
+## Descriptor Wallet Backup Standardization {#wallet-descriptors}
 
 > BIP32 introduced the concept of Hierarchical Deterministic (HD) wallets, which allowed for the creation of multiple addresses from a single master seed. However, HD wallets still required users to backup and manage a large number of individual private keys, which was not very user-friendly.
 >
@@ -64,11 +77,11 @@ describes a set of P2PKH outputs, but additionally specifies that the specified 
 >
 > In the end, it was BIP44 that added the descriptor wallet backup compatibility, allowing for the creation of wallet descriptors that could be used to easily backup and restore HD wallets.
 >
-> ## XPUBs vs ZPUBs vs YPUBs
+> ## XPUBs vs ZPUBs vs YPUBs {#xpubs}
 >
 > XPUB is short for extended public key which allows full read-only view to all transactions, addresses, and balances in a specific wallet. ZPUBs are an ```xpub``` for BIP49 address types. YPUBs are an ```xpub``` for BIP84 address types. That being said, when using descriptor wallet backups it will always be ```xpub```, and never ```zpub```, or ```ypub```.
 >
-> ## Watch-only
+> ## Watch-only Wallet {#watch-only}
 >
 > A watch-only bitcoin wallet is a type of wallet that does not store or use private keys. It allows users to view transactions and balances on an online computer without risking their bitcoins, as well as keep an eye on their cold storage or paper wallet without touching your private key, by importing your XPUB.
 >

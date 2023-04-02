@@ -10,11 +10,11 @@ Bitcoin has been a hot topic for years, and it's only getting more popular. But 
 
 <!-- markdown-toc start- Don't edit this section. Run M-x markdown-toc/generate-toc again -->
 
-# Table of Content
+## Table of Contents
 
-- [Cypherpunks](#cypherpunks)
-  - [Silk Road](#silk-road)
-    - [Blocksize Wars - Scaling Bitcoin](#blocksize-wars-scaling-bitcoin)
+* [Cypherpunks](#cypherpunks)
+  * [Silk Road](#silk-road)
+    * [Blocksize Wars - Scaling Bitcoin](#block-warz)
 
 <!-- markdown-toc end -->    
 
@@ -45,7 +45,7 @@ Silk Road was an online black market that operated on the dark web, using Tor, a
 >
 > Despite Silk Road's closure, the use of bitcoin and other cryptocurrencies for illegal activities has continued. Law enforcement agencies around the world have struggled to keep up with the growing sophistication of digital criminals, who are using encrypted messaging apps and other technologies to evade detection. The legacy of Silk Road continues to be felt in the ongoing debates over the regulation and control of digital currencies, as governments and policymakers seek to balance the need for privacy and security with the need for law enforcement and public safety.
 
-## Blocksize Wars - Scaling Bitcoin
+## Blocksize Wars - Scaling Bitcoin {#block-warz}
 
 > From 2015-2017, the so-called "Blocksize Wars" occured. Bitcoin's popularity was growing, and with it came the problem of scalability. Bitcoin's blockchain, the decentralized ledger that records all transactions, was becoming congested, causing delays and high transaction fees. Some developers proposed increasing the block size limit to allow for more transactions per block, while others argued that this would compromise the security and decentralization of the network. At the heart of the controversy was the block size limit, which sets the maximum size of each block in the blockchain. Bitcoin's original block size limit was set at 1MB, a figure that had remained unchanged since the network's inception.
 >
