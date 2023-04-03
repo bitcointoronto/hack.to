@@ -57,7 +57,7 @@ Silk Road was an online black market that operated on the dark web, using Tor, a
 >
 > In the end, the Blocksize Wars were resolved without a hard fork, as the community eventually came to a compromise that involved implementing Segregated Witness (SegWit), a scaling solution that allowed more transactions to be processed within the existing block size limit. While the resolution of the conflict was a significant achievement for the bitcoin community, the episode left a lasting impact, highlighting the importance of community consensus and the challenges of achieving it in a decentralized and distributed system like Bitcoin.
 >
-> **The war was over and the small blockers won. Sorry Bitcoin XT, Bitcoin Classic, Bitcoin Unlimited and Bitcoin Cash**
+> `The war was over and the small blockers won. Sorry Bitcoin XT, Bitcoin Classic, Bitcoin Unlimited and Bitcoin Cash`
 >
 > -------
 >

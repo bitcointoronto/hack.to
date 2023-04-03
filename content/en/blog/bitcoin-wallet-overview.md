@@ -8,24 +8,42 @@ tags:
 
 In this blog post we will giving a thorough overview of the various bitcoin wallet options for users, as well as key privacy features to look out for when choosing your wallet of choice. 
 
-> ## FOSS bitcoin wallets 
+<!-- markdown-toc start- Don't edit this section. Run M-x markdown-toc/generate-toc again -->
+
+## Table of Contents
+
+- [FOSS Bitcoin Wallets](#foss-bitcoin-wallets)
+	- [Android vs iOS](#android-vs-ios)
+	  - [Mobile vs Desktop](#mobile-vs-desktop)
+	    - [Linux OS](#linux-os)
+- [Hardware Wallet](#hardware-wallet)
+  - [Air-gapped Hardware Wallet](#air-gapped-hardware-wallet)
+	- [Airgapped Software vs Hardware Wallet](#air-gapped-software-vs-hardware-wallet)
+	   - [DIY Air-gapped Hardware Wallet](#diy-air-gapped-hardware-wallet)
+- [User Error](#user-error)
+- [Backing Up - Seed Storage](#12-24-WORD-SEED-MNEMONIC-PHRASE-STORAGE)
+
+<!-- markdown-toc end -->   
+
+## FOSS Bitcoin Wallets 
 >
 > A FOSS (Free and Open Source Software) bitcoin wallet is important for several reasons. Firstly, it provides greater transparency and security for users as the source code is open and can be reviewed by the community. This means that any vulnerabilities or backdoors can be identified and fixed quickly by the community, making the wallet more secure. FOSS wallets also allow for greater customization and the ability to add additional features or integrations as desired. 
-
-## Key Privacy Features 
-
+>
+> **Key Privacy Features** 
+>
 > When using a FOSS bitcoin wallet, there are several key privacy features that users should take advantage of to enhance their > security and protect their privacy. Here are some of the most important privacy features to consider: 
 >
 > 1. Transaction fees: When sending bitcoin transactions, you may be able to choose the transaction fee you pay. Higher fees may result in faster transaction confirmations, but they can also reveal more information about your transaction history. By choosing a lower fee, you may be able to improve your privacy. 
 > 2. Address reuse: Reusing bitcoin addresses can compromise your privacy by allowing others to easily track your transaction history. Bitcoin wallets usually offer the option to generate new addresses for each transaction, which helps to improve your privacy and security. 
-> 3. Coin control: Some FOSS bitcoin wallets allow users to choose which coins or addresses they want to use for a particular transaction, which can help to improve privacy by preventing others from seeing your entire transaction history. 
-> 4. CoinJoin: A technique that allows multiple bitcoin users to combine their transactions into a single transaction, making it more difficult to trace the original transactions to individual users. Some FOSS bitcoin wallets offer CoinJoin as a built-in feature, while others require users to use a separate CoinJoin service.  
-> 5. BIP47, also known as "Reusable Payment Codes", is a protocol that allows users to generate a unique payment code for each transaction, making it more difficult to trace their transaction history. When using BIP47, a user generates a "payment code" that is unique to each transaction. This code can be used to receive payments without revealing the user's bitcoin address. 
-> 6. PayJoin (also known as "P2EP" or "BIP78") is another privacy feature for bitcoin transactions. PayJoin is a technique that allows two bitcoin users to combine their transactions into a single transaction with multiple inputs and outputs, making it more difficult to trace the original transactions to individual users. This makes it more difficult for an observer to determine which inputs and outputs belong to which user. 
-> 7. Tor integration: Some FOSS bitcoin wallets offer integration with the Tor network, which can help to protect your privacy by hiding your IP address and location from potential attackers. 
-
-## Dust Attacks 
-
+> 3. Coin control: Some wallets allow users to choose which coins or addresses they want to use for a particular transaction, which can help to improve privacy by preventing others from seeing your entire transaction history. 
+> 4. Tor integration: Some wallets offer integration with the Tor network, which can help to protect your privacy by hiding your IP address and location from potential attackers. 
+> 5. Connect node: Some wallets provide the option to connect your own node to your wallet instead of trusting the wallet provider's node to fetch balance and transaction information, as well as verify the state of the blockchain. Most allow connecting via your node's IP address, but some even allow connecting your node to the wallet via Tor. This is the most ideal situation because at this point you are 100% in control.
+> 6. CoinJoin: A technique that allows multiple bitcoin users to combine their transactions into a single transaction, making it more difficult to trace the original transactions to individual users. Some wallets offer CoinJoin as a built-in feature, while others require users to use a separate CoinJoin service.  
+> 7. BIP47, also known as "Reusable Payment Codes", is a protocol that allows users to generate a unique payment code for each transaction, making it more difficult to trace their transaction history. When using BIP47, a user generates a "payment code" that is unique to each transaction. This code can be used to receive payments without revealing the user's bitcoin address. 
+> 8. PayJoin (also known as "P2EP" or "BIP78") is another privacy feature for bitcoin transactions. PayJoin is a technique that allows two bitcoin users to combine their transactions into a single transaction with multiple inputs and outputs, making it more difficult to trace the original transactions to individual users. This makes it more difficult for an observer to determine which inputs and outputs belong to which user. 
+>
+> **Dust Attacks** 
+>
 > Preventing dust attacks is another important privacy feature that users should consider when choosing a wallet. A dust attack is a spamming technique used by attackers to send small amounts of bitcoin (dust) to a large number of addresses. The goal of a dust attack is to link these addresses to a particular user, allowing the attacker to track their transactions and potentially compromise their privacy. 
 >
 > Here are some features that help prevent dust attacks: 
@@ -84,7 +102,7 @@ In this blog post we will giving a thorough overview of the various bitcoin wall
 >
 > The choice between a traditional hardware wallet and an air-gapped hardware wallet will depend on the specific needs and preferences of the user. For users who prioritize maximum security and are willing to take the extra steps necessary to ensure it, an air-gapped hardware wallet may be the best choice. For others, a traditional hardware wallet may provide a good balance of security and convenience. 
 
-## Air-gapped Softwave vs Hardware Wallet 
+## Air-gapped Software vs Hardware Wallet 
 
 > An air-gapped software wallet setup involves creating a wallet on a computer that is not connected to the internet and is physically isolated from other devices, similar to an air-gapped hardware wallet setup. However, instead of storing the private keys on a hardware device, the private keys are stored in the software on the air-gapped computer. 
 > 
@@ -122,17 +140,25 @@ However, DIY air-gapped hardware wallets do require a higher level of technical 
 >
 > It's important for users to carefully read and follow instructions provided by the wallet upon seed creation, and to take the necessary precautions to ensure the security of their funds. 
 
-## Backing Up – Seed Storage 
+## Backing Up – Seed Storage {#12-24-WORD-SEED-MNEMONIC-PHRASE-STORAGE}
 
-> The best ways to backup your bitcoin mnemonic phrase (also known as a seed phrase or recovery phrase) include: 
+> A bitcoin mnemonic phrase (AKA seed phrase or recovery phrase) consists of 12 or 24 words which can be used to restore your funds if the wallet's device is lost. Software wallets provide 12 words which have `128-bit` entropy and hardware wallets provide 24 words which are `256-bit` entropy. As long as the seed is properly generated[^2], there is no difference in terms of security because bitcoin itself targets the `128-bit` security level. A useful reason to use a 24 word seed would be splitting up your written backup into two parts with both required to restore funds. If an attacker obtained one of the word lists, they would still be insurmountable `128-bit` security.
+>
+> If you're using a BIP39 compatible wallet then you can input the seed into any wallet which supports BIP39.
+>
+> The best ways to backup your seed include: 
 >
 > 1. Write it down: The most common and recommended way to backup your mnemonic phrase is to write it down on a piece of paper or other physical medium. Make sure to write it legibly, and store it in a secure location such as a safe or a lockbox. It's also a good idea to make multiple copies and store them in different locations.
 > 2. Use a metal backup: You can also use a metal backup, which is a small metal plate that is etched with your mnemonic phrase. Metal backups are highly durable and can provide additional protection against physical damage or destruction. Again, make sure to store your metal backup in a secure location. 
-> 3. Use a passphrase: You can add an additional layer of security to your mnemonic phrase by using a passphrase. A passphrase is a word or phrase that you add to your mnemonic phrase when you set up your wallet. This can provide an additional layer of protection against attackers who may be able to access your mnemonic phrase. Strong passphrases are recommended to ensure brute forcing is impossible. 
+> 3. Use a passphrase[^3]: You can add an additional layer of security to your mnemonic phrase by using a passphrase which is highly recommended. A passphrase is a word or phrase that you add to your mnemonic phrase when you set up your BIP39 wallet. Keep in mind when adding a passphrase to a BIP39 generated seed you are creating a new wallet. So in theory, if an attacker found your seed and tried restoring funds there would be no balance because it is a separate wallet.
 > 4. Non-cryptographic split. You can split up the words and spread them out geographically. 
 > 5. Cryptographic split: You can split your mnemonic phrase into multiple parts using a cryptographic technique called Shamir's Secret Sharing. This allows you to store the different parts in different locations or with different people, so no single person or location has access to your entire backup. This can provide an additional layer of security against theft or loss. 
-> 6. QR codes: You can also store your mnemonic phrase as a series of QR codes. This allows you to easily scan the codes using a smartphone or other device to recover your backup. Make sure to store the QR codes in a secure location to prevent unauthorized access. Some wallets nowadays allow users to export their seed into QR format even. 
-> 
-> It's important to remember that your mnemonic phrase is the key to access your bitcoin wallet, so it's essential to keep it safe and secure. Always take precautions to protect your backup, and never share your mnemonic phrase with anyone else. 
+> 6. QR codes: You can also store your mnemonic phrase as a series of QR codes. This allows you to easily scan the codes using a smartphone or other device to recover your backup. Make sure to store the QR codes in a secure location to prevent unauthorized access. Some wallets nowadays allow users to export their seed into QR format, and even encrypt it.
+>
+> **`It's important to remember that your mnemonic phrase is the key to access your bitcoin wallet, so it's essential to keep it safe and secure. Always take precautions to protect your backup, and NEVER SHARE YOUR MNEMONIC PHRASE WITH ANYONE ELSE!`** 
 
 [^1]: Partially signed bitcoin transactions are the most common way to send coins with air-gapped hardware wallets. The way it works is using QR codes, where device #1 partially signs the transaction. Then device #2 completes the transaction by providing the necessary amount of signatures necessary for the transaction to process and get broadcasted to the network.
+
+[^2]: When using a FOSS bitcoin wallet and creating the seed it is generated client-side(user wallet), not server-side(wallet provider), which means only that device receives the seed information. Even better is to complete this process offline.
+
+[^3]: When creating a passphrase ensure it is a strong passphrase. Make it a decent length with capital and lower case letters, special characters, etc. so it is impossible to brute force if found. Spaces are accepted as a character.

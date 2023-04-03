@@ -6,9 +6,9 @@ menu: "main"
 
 ## 4hr Training
 
-**In Person or Virtual Training Session**
+**In Person or Virtual Training Sessions**
 
-**$400**
+`$400`
 
 - Hands on privacy guidance and operations overview
 - Wallet walk-through based on your coins and desired device/OS
