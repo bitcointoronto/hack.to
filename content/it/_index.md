@@ -9,15 +9,12 @@ BitcoinToronto è un hackerspace [cypherpunk]({{< ref "cypherpunks" >}}) non-pro
 
 Ospiteremo regolarmente eventi aperti a tutti, come workshop, meetup, hackathon, eventi virtuali e tanto altro.
 
-Siamo finanziati attraverso contribuzioni volontarie da individui e aziende private: se vuoi supportarci, considera di [fare una donazione]({{< ref "donate" >}}).
-La nostra pagina di [trasparenza]({{< ref "transparency" >}}) mostra nel dettaglio come gestiamo i fondi raccolti.
-
 {{< framed >}} 
 ## Coming Soon
 
 Al momento stiamo lavorando per aprire l'entità legale e trovare uno spazio fisico adatto. Ci apriremo al pubblico una volta che questo accadrà.
 
-È possibile aiutarci a coprire i nostri costi iniziali di affitto, mobili ed attrezzature hardware tramite una [donazione]({{< ref "donate" >}}) alla nostra campagna di crowdfunding. Accettiamo solo Bitcoin "on-chain", e i codici di pagamento BIP47 sono preferiti per una maggiore privacy tra mittente e destinatario. Il nostro codice di pagamento si trova qui. I portafogli FOSS che supportano BIP47 sono Samourai Wallet, Sparrow Wallet, Blue Wallet e Stack Wallet.
+È possibile aiutarci a coprire i nostri costi iniziali di affitto, mobili ed attrezzature hardware tramite una donazione alla nostra campagna di crowdfunding. Accettiamo solo Bitcoin "on-chain", e i codici di pagamento BIP47 sono preferiti per una maggiore privacy tra mittente e destinatario. Il nostro codice di pagamento si trova qui. I portafogli FOSS che supportano BIP47 sono Samourai Wallet, Sparrow Wallet, Blue Wallet e Stack Wallet.
 
 {{< /framed >}}
 
